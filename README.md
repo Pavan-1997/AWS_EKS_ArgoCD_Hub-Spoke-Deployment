@@ -1,5 +1,8 @@
 # AWS_EKS_ArgoCD_Hub_Spoke_Deployment
 
+Pre-Requisite:
+
+Install AWSCLI, EKSCTL & KUBECTL 
 
 1. Create 3 EKS Clusters 
 
