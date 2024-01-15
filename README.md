@@ -5,13 +5,15 @@
 ### Install AWSCLI, EKSCTL & KUBECTL as below
 
 1. Create 3 EKS Clusters 
-
+```
 eksctl create cluster --name hub-cluster --region us-west-1
-
+```
+```
 eksctl create cluster --name spoke-cluster-1 --region us-west-1
-
+```
+```
 eksctl create cluster --name spoke-cluster-2 --region us-west-1
-
+```
 
 2. Switch to right Context point to the Cluster you want to be on (Hub)
 
