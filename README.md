@@ -4,6 +4,50 @@
 
 ### Install AWSCLI, EKSCTL & KUBECTL as below
 
+Install AWS CLI
+```
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+sudo apt install unzip
+
+unzip awscliv2.zip
+
+sudo ./aws/install
+
+aws --version
+```
+
+
+Configure AWS CLI
+```
+aws configure
+```
+`Just give Access Key and Secret Key followed by ENTER-ENTER`
+
+
+Install Kubectl
+```
+curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.23.6/bin/linux/amd64/kubectl
+
+chmod +x ./kubectl
+
+sudo mv ./kubectl /usr/local/bin/kubectl
+
+kubectl version
+```
+
+
+Install Eksctl
+```
+curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp 
+
+sudo mv /tmp/eksctl /usr/local/bin
+
+eksctl version
+```
+
+
+
 1. Create 3 EKS Clusters 
 ```
 eksctl create cluster --name hub-cluster --region us-west-1
