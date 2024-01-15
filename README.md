@@ -1,4 +1,4 @@
-# AWS_EKS_ArgoCD_Hub_Spoke_Deployment
+# AWS_EKS_ArgoCD_Hub-Spoke-Deployment
 
 ### Pre-Requisite:
 
