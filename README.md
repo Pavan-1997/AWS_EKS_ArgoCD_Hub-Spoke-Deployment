@@ -2,7 +2,7 @@
     
 ### Pre-Requisite:         
          
-### Install AWSCLI, EKSCTL & KUBECTL as below
+### Install AWSCLI, EKSCTL & KUBECTL as below:
 
 Install AWS CLI
 ```
