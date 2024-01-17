@@ -1,6 +1,6 @@
 # AWS_EKS_ArgoCD_Hub-Spoke-Deployment 
  
-### Pre-Requisite:    
+### Pre-Requisite:     
         
 ### Install AWSCLI, EKSCTL & KUBECTL as below
 
