@@ -178,6 +178,8 @@ argocd version
 ```
 argocd login 54.193.31.170:30879
 ```
+![ARGOCD-UI](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/cf0d3104-3fd5-4834-b9ba-e225d142715a)
+
 
 14. Now add cluster in ArgoCD CLI
 ```
