@@ -195,14 +195,21 @@ argocd login 54.193.31.170:30879
 
 
 14. Now add cluster in ArgoCD CLI
+
+![ARGOCD-SETTTINGS-CLUSTER](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/3da62c4b-119c-441e-ac25-aed3ee72a055)
+
 ```
 argocd cluster add iam-root-account@spoke-cluster-1.us-west-1.eksctl.io --server 54.193.31.170:30879
 ```
 ```
 argocd cluster add iam-root-account@spoke-cluster-2.us-west-1.eksctl.io --server 54.193.31.170:30879
 ```
+![ARGOCD-SETTTINGS-CLUSTER-3-ADD](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/bd37e555-18e8-4c73-a172-b5a92e9e8e78)
+
 
 15. Go to the ArgoCD UI
+
+	![ARGOCD-UI-LOGIN](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/e716b292-ab17-42ac-b4dd-f90e7207c39e)
 
 	Click on Create Application
 	
@@ -238,7 +245,7 @@ kubectl config use-context iam-root-account@spoke-cluster-1.us-west-1.eksctl.io
 
 17. Now go to the GitHub 
 
-	Try to edit the configmap.yml 
+	Try to edit the configmap.yml  
 	
 	Changing the parameter to ui_properties_file_name: "pavan-interface.properties"
 	
@@ -250,3 +257,8 @@ kubectl config use-context iam-root-account@spoke-cluster-1.us-west-1.eksctl.io
 	You can check the configmap in UI and also in terminal
 	
 	You can similarly check for another App created on ArgoCD for the another cluster
+---
+
+### EKS CLUSTER:
+
+![AWS-K8S-CLUSTER](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/a2e4bd7f-8eff-4dfc-961e-240c266a3fda)
