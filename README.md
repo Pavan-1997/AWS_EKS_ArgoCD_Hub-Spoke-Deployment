@@ -66,7 +66,9 @@ eksctl create cluster --name spoke-cluster-2 --region us-west-1
 	kubectl config get-contexts
 	```
 	(Retrieve and display a list of available contexts in the current Kubernetes configuration, showing information such as context name, associated cluster, authentication details, and namespace)
-	```
+	![CONTEXT](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/99c3c08f-d48b-4e9a-af5d-e09d633917b0)
+
+ 	```
 	kubectl config get-contexts | grep us-west-1
 	```
  	(Identifying contexts related to a specific region or environment, such as "us-west-1")
@@ -78,6 +80,8 @@ eksctl create cluster --name spoke-cluster-2 --region us-west-1
  	kubectl config current-context
 	```
  	(identify which Kubernetes cluster and user credentials are currently in use for kubectl command)
+
+	![CURRENT-CONTEXT](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/1e1c88e7-bbdd-433b-b5e9-1d69efdba120)
 
 
 3. Install  ArgoCD
