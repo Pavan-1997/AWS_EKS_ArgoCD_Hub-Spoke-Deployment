@@ -139,8 +139,10 @@ Change type: ClusterIP -> type: NodePort
 ```
 kubectl get svc -n argocd
 ```
+![SVC](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/49cf75f1-e22f-4bb8-9f6c-11df49eac66f)
 
-9. Pick an Publice IP followed by port number assigned (30879)
+
+9. Pick an Public IP followed by port number assigned (30879)
 
 Before doing the above open the Security Group for Hub Instances (Any instace that your accessing must be permitted to access the above port) the above port 
 
@@ -149,6 +151,9 @@ Before doing the above open the Security Group for Hub Instances (Any instace th
 ```
 kubectl get secret -n argocd
 ```
+![SECRET-LIST](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/7e69d979-7426-42ff-9a29-12786fdf32d8)
+
+
 ```
 kubectl edit secret argocd-initial-admin-secret -n argocd
 ```
