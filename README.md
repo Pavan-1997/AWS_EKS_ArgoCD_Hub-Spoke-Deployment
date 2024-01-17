@@ -160,6 +160,8 @@ echo "dVFRTWhCeEVPb21qTUV6cQ==" | base64 -d && echo
 Username: admin
 Password: ()
 ```
+![ARGOCD-UI](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/cf0d3104-3fd5-4834-b9ba-e225d142715a)
+
 
 11. ArgoCD UI doesn't support adding of Clusters but only deleting of clusters
 
@@ -177,12 +179,14 @@ rm argocd-linux-amd64
 ```
 argocd version
 ```
+![ARGOCD-CLI-VERSIOM](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/b828f22a-751a-461d-9928-1cd33b7fd910)
+
 
 13. Login to ArgoCD CLI
 ```
 argocd login 54.193.31.170:30879
 ```
-![ARGOCD-UI](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/cf0d3104-3fd5-4834-b9ba-e225d142715a)
+![ARGOCD-CLI-LOGIN](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/46155f33-0841-4597-ba82-7056ece7d6e2)
 
 
 14. Now add cluster in ArgoCD CLI
