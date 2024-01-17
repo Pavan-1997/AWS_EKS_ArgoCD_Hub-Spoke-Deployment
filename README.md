@@ -205,9 +205,13 @@ argocd login 54.193.31.170:30879
 ```
 argocd cluster add iam-root-account@spoke-cluster-1.us-west-1.eksctl.io --server 54.193.31.170:30879
 ```
+![SPOKE1-ADD](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/0486581e-d53e-4ed0-ab50-e9ee670cd3f8)
+
 ```
 argocd cluster add iam-root-account@spoke-cluster-2.us-west-1.eksctl.io --server 54.193.31.170:30879
 ```
+![SPOKE2-ADD](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/a73f281d-de62-4461-98d6-335a460de6cc)
+
 ![ARGOCD-SETTTINGS-CLUSTER-3-ADD](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/bd37e555-18e8-4c73-a172-b5a92e9e8e78)
 
 
