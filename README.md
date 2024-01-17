@@ -103,6 +103,8 @@ C:\Users\pavan\Desktop\YT\EKS-ARGOCD-MUTLI-CLUSTER
 ```
 kubectl get cm -n argocd
 ```
+![CM-ARGOCD](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/4bc4418f-87c6-4b32-be29-7a02e69daf22)
+	
 ```
 kubectl edit cm argocd-cmd-params-cm -n argocd
 ```
@@ -127,6 +129,8 @@ kubectl edit deployment argocd-server -n argocd
 ```
 kubectl get svc -n argocd
 ```
+![SVC](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/49cf75f1-e22f-4bb8-9f6c-11df49eac66f)
+
 
 7. Set the SVC as NodePort
 ```
@@ -139,7 +143,7 @@ Change type: ClusterIP -> type: NodePort
 ```
 kubectl get svc -n argocd
 ```
-![SVC](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/49cf75f1-e22f-4bb8-9f6c-11df49eac66f)
+![NODEPORT](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/29deb455-5677-4a24-8c35-69837e907de4)
 
 
 9. Pick an Public IP followed by port number assigned (30879)
@@ -248,15 +252,22 @@ kubectl config use-context iam-root-account@spoke-cluster-1.us-west-1.eksctl.io
 	Try to edit the configmap.yml  
 	
 	Changing the parameter to ui_properties_file_name: "pavan-interface.properties"
+
+	![GIT-TERM-TEST](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/ed3807a9-3cd1-4824-b22a-69c11fa2958b)
 	
 
-18. Now go to the ArgoCD UI 
+19. Now go to the ArgoCD UI 
 
 	Sync all the Apps 
 	
 	You can check the configmap in UI and also in terminal
 	
+ 	![GIT-TEST](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/30f30e17-8bd6-4a07-8e0c-ec49c92af1a7)
+
 	You can similarly check for another App created on ArgoCD for the another cluster
+
+![APP-PODS-SPOKE1](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/b1ddc5ab-64c8-41ff-bb93-74dae5b5237a)
+
 ---
 
 ### EKS CLUSTER:
