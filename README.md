@@ -116,6 +116,8 @@ Now add the below and save it
 data:
 	server.insecure: "true"
 ```
+![VERIFY-DEP-INSECURE](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/c9439ae4-1dbe-4bc1-8a65-df2b5e7fd556)
+
 ```
 kubectl describe deployment/argocd-server -n argocd
 ```
