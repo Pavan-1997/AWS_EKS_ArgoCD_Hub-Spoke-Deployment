@@ -240,9 +240,13 @@ argocd cluster add iam-root-account@spoke-cluster-2.us-west-1.eksctl.io --server
 
 	![APP1-ARGOCD](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/4a01968f-50d4-4078-ac4f-533ab6730155)
 
+	![SPOKE1-CLUSTER-ADD-GIT](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/4164f395-a285-4975-9559-645a7cfa53c8)
+
 	Similarly Create Application for Spoke2
 
  	![APP2-ARGOCD](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/1b66f19e-9e75-412a-ad79-79416e63864f)
+
+	![SPOKE2-CLUSTER-ADD-GIT](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/84d635ab-9901-4134-9f61-339b6a817afb)
 
 	Auto sync happens every 3 minutes
 
