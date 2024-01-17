@@ -91,6 +91,7 @@ kubectl create namespace argocd
 ```
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
+![SHOW-ARGODC-PODS](https://github.com/Pavan-1997/AWS_EKS_ArgoCD_Hub-Spoke-Deployment/assets/32020205/c58d175a-7a22-48f2-b335-ac1b19ec258a)
 
 
 4. Verify the ArgoCD pods
